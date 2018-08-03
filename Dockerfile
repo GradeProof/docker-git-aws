@@ -5,6 +5,7 @@ LABEL maintainer="Craig Sketchley <craig@gradeproof.com>"
 RUN apk -v --update --no-cache add \
         bash \
         zip \
+        curl \
         python \
         py-pip \
         && \
