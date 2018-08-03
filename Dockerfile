@@ -4,6 +4,7 @@ LABEL maintainer="Craig Sketchley <craig@gradeproof.com>"
 # Install python and the AWS CLI
 RUN apk -v --update --no-cache add \
         bash \
+        zip \
         python \
         py-pip \
         && \
